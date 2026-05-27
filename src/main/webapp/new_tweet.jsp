@@ -23,6 +23,11 @@
 				<input type="submit" value="投稿する">
 			</div>
 		</form>
+		
+		<p>投稿しました</p>
+		
+		<p>投稿に失敗しました（255文字以内で入力してください）</p>
+		
 		<a href="tweet_list">一覧に戻る</a>
 	</div>
 </body>

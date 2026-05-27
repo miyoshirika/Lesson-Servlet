@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+
 import jp.co.aforce.dao.TweetDAO;
 
 @WebServlet("/new_tweet")
@@ -21,6 +22,11 @@ public class NewTweetServlet extends HttpServlet {
 		TweetDAO tweetDAO = new TweetDAO();
 		try {
 			tweetDAO.addTweet(content, author);
+			int count = ;
+			
+			if(count<=255) {
+				request.
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
